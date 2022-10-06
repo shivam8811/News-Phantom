@@ -46,10 +46,10 @@ const News = (props) => {
     setTotalResults(parsedData.totalResults);
 
   };
-  document.title = `${props.category !== "general" ? capitalizeFirstLetter(props.category) : "Home"} - NewsMonkey`;
+  document.title = `${props.category !== "general" ? capitalizeFirstLetter(props.category) : "Home"} - NewsPhantom`;
   return (
     <div className="container my-3">
-      <h1 className="text-center" style={{ margin: "40px 0px", marginTop: "80px" }}>News Monkey - Top Headlines<hr></hr></h1>
+      <h1 className="text-center" style={{ margin: "40px 0px", marginTop: "80px" }}>News Phantom - Top Headlines<hr></hr></h1>
       <InfiniteScroll
         dataLength={articles.length}
         next={fetchMoreData}

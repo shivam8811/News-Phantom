@@ -11,7 +11,7 @@ const Navbar = () => {
         <div>
             <nav className="navbar fixed-top navbar-expand-lg bg-dark">
                 <div className="container-fluid">
-                    <Link className={`navbar-brand text-light p-2 rounded-pill ${location.pathname === "/" ? "active bg-secondary" : "bg-danger"}`} to="/">NewsMonkey</Link>
+                    <Link className={`navbar-brand text-light p-2 rounded-pill ${location.pathname === "/" ? "active bg-secondary" : "bg-danger"}`} to="/">NewsPhantom</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
