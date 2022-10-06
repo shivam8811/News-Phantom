@@ -1,3 +1,5 @@
+// Shows a spinner during the loading of page
+
 import React from 'react'
 import loading from './loading.gif'
 

@@ -10,7 +10,7 @@ const App = (props) => {
   const [progress, setProgress] = useState(0);
 
 
-  const apiKey = "784bc950ea6a461da7b8c5980123102e" //process.env.REACT_APP_NEWS_API;
+  const apiKey = "784bc950ea6a461da7b8c5980123102e"
   const pageSize = 6;
   const country = "us";
   return (

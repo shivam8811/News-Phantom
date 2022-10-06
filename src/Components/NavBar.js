@@ -1,10 +1,9 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom';
-import App from '../App';
 
-const Navbar = () => {
+const Navbar = () => { 
     const location = useLocation();
-    const checkLocation = (pathName) => {
+    const checkLocation = (pathName) => { // to highlight the selected navbar element
         return location.pathname === `/${pathName}` ? "active bg-dark" : "bg-danger";
     }
     return (

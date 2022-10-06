@@ -33,7 +33,7 @@ const News = (props) => {
     props.setProgress(100);
   }
 
-  useEffect(() => {
+  useEffect(() => { //udates the news after the DOM has been rendered
     updateNews();
   }, [])
 
