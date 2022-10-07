@@ -16,4 +16,4 @@
 5. Run the command "npm install" to install the required dependencies.
 6. Finally run the command "npm run start".
 
-News-Phantom will start running on the default browser.
+### News-Phantom will open in the default browser.
