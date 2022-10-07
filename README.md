@@ -10,7 +10,7 @@
 ## Steps to get started
 1. Create a new directory (folder) where you want to download the required files.
 2. Open that directory in the code editor.
-  -To do this, open VS Code > File > Open Folder > Select the created folder
+  - To do this, open VS Code > File > Open Folder > Select the created folder
 3. Open the terminal of the code editor and clone the git repository by running the command "git clone https://github.com/shivam8811/News-Phantom" 
 4. Change the directory to News-Phantom by running the command "cd .\News-Phantom\"
 5. Run the command "npm install" to install the required dependencies.
