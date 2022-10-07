@@ -1,5 +1,5 @@
 # Getting Started with News-Phantom
-## Prerequsites
+## Prerequisites
 1. Git
   - Install Git from "https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" (Skip if already installed)
 2. NodeJS
