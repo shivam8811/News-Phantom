@@ -17,7 +17,7 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="nav nav-tabs bg-danger rounded">
                             <li className="nav-item"><Link className={`nav-link text-light ${checkLocation("business")}`} to="/business">Business</Link></li>
-                            <li className="nav-item"><Link className={`nav-link text-light ${checkLocation("health")}`} aria-current="page" to="/health">Health</Link></li>
+                            <li className="nav-item"><Link className={`nav-link text-light ${checkLocation("health")}`} to="/health">Health</Link></li>
                             <li className="nav-item"><Link className={`nav-link text-light ${checkLocation("science")}`} to="/science">Science</Link></li>
                             <li className="nav-item"><Link className={`nav-link text-light ${checkLocation("technology")}`} to="/technology">Technology</Link></li>
                             <li className="nav-item"><Link className={`nav-link text-light ${checkLocation("entertainment")}`} to="/entertainment">Entertainment</Link></li>
